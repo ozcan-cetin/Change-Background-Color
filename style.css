@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#bg-generator{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgGenBtn{
+    background-color: coral;
+    width: 70%;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    max-width: 24rem;
+    font-size: 1.2rem;
+}
+.bgGenBtn:hover{
+    background-color: lightskyblue;
+}
